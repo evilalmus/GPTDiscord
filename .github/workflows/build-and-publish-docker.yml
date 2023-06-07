@@ -67,7 +67,7 @@ jobs:
             type=semver,pattern={{raw}}
             type=ref,event=branch
           images: |
-            kaveenk/gpt3discord
+            evilalmus/gptdiscord
             ghcr.io/${{ github.repository }}
 
       - name: Check if release
@@ -156,7 +156,7 @@ jobs:
             type=semver,pattern={{raw}}
             type=ref,event=branch
           images: |
-            kaveenk/gpt3discord
+            evilalmus/gptdiscord
             ghcr.io/${{ github.repository }}
 
       - name: Check if release
@@ -221,7 +221,7 @@ jobs:
         uses: docker/metadata-action@v4
         with:
           images: |
-            kaveenk/gpt3discord
+            evilalmus/gptdiscord
             ghcr.io/${{ github.repository }}
 
       - name: Build and push base Docker image
